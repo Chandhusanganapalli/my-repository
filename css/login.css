@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+}
+
+.header-heading {
+    font-size: 2rem;
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgb(79, 79, 79)
+}
+
+.container-align {
+    height: 430px;
+    width: 450px;
+    background-color: white;
+    border-radius: 6px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+
+
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.phn {
+    padding: 12px;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 6px;
+
+}
+
+.otp-btn {
+    padding: 12px;
+    border: 1px solid rgb(239, 79, 95);
+    border-radius: 6px;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 500;
+}
+
+.otp-btn:hover {
+    background-color: rgb(225, 70, 86);
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+
+.email-login-btn {
+    padding: 12px;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Roboto-Regular", arial, sans-serif;
+    font-weight: 400;
+}
+
+.google-email-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.google-login-btn {
+    padding: 12px;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 500;
+}
+
+.google-login-btn:hover {
+    background-color: rgb(241, 248, 248);
+    border-color: rgb(196, 245, 245);
+
+}
+
+.create {
+    color: rgb(239, 79, 95);
+    cursor: pointer;
+}
+
+.footer-seg {
+    margin-left: 22px;
+    margin-right: 22px;
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(210, 207, 207);
+    margin-top: 30px;
+
+}
+
+.footer-para {
+    margin: 20px
+}
+
+.body-border {
+    border-bottom: 1px solid rgb(210, 207, 207);
+    position: relative;
+    margin-inline: 20px;
+}
+
+.body-border>p {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    translate: -50% -50%;
+    background: white;
+    padding-inline: 5px;
+}
+
+.google-svg-align {
+    height: 18px;
+    width: 18px;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-header>svg {
+    margin-right: 20px;
+    font-weight: 700;
+}
